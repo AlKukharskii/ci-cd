@@ -6,6 +6,6 @@ jobs:
         steps:
             -
                 run: |
-                echo Idle Step
-                sleep 20
-                echo Waking up!
+                    echo Idle Step
+                    sleep 20
+                    echo Waking up!
