@@ -1,0 +1,12 @@
+on:
+    push
+jobs:
+    idle:
+        name: Idle is doing only prints
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: doing steps
+                run: echo Idle Step
+                run: sleep 10
+                run: echo Done!
